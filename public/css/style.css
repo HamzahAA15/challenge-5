@@ -1,0 +1,202 @@
+section {
+  padding: 0 5%;
+}
+.background-style {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-18 {
+  font-size: calc(18rem / 16);
+  color: white;
+  font-family: "Open Sans";
+}
+.text-24 {
+  font-size: calc(24rem / 16);
+  color: white;
+  font-family: Arial;
+}
+.text-56 {
+  font-size: calc(56rem / 16);
+  color: white;
+  font-family: Arial;
+}
+.text-14 {
+  font-size: calc(14rem / 16);
+  font-family: Arial;
+}
+.text-65 {
+  font-size: calc(65rem / 16);
+  color: white;
+  font-family: Arial;
+}
+.text-12 {
+  font-size: calc(12rem / 16);
+  color: white;
+  font-family: "Open Sans";
+}
+.btn-all {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  font-weight: bold;
+  padding: 1rem 4rem;
+}
+.gold-text {
+  color: #ffb548;
+}
+#main-cta {
+  background-image: radial-gradient(
+      189.96% 61.18% at 50% 38.82%,
+      rgba(255, 181, 72, 0) 0%,
+      rgba(52, 44, 29, 0.80319) 73.22%,
+      #08090a 99.74%
+    ),
+    url(/assets/main-bg.jpg);
+}
+.navbar {
+  opacity: 100%;
+  color: white;
+}
+.content-page1 {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  color: white;
+}
+.content-page1 h1 {
+  font-size: calc(72rem / 16);
+  font: arial;
+  padding-bottom: 30px;
+}
+.content-page1 h2 {
+  padding-bottom: 30px;
+}
+.content-page1 button {
+  width: 10%;
+  font-weight: bold;
+}
+.the-story {
+  color: white;
+}
+/* the games */
+#the-games {
+  background-image: radial-gradient(
+      136.03% 54.57% at 50% 48.04%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 60.63%,
+      #080a0b 99.74%
+    ),
+    url(/assets/the-games-bg.jpg);
+}
+.content-page2 {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  color: white;
+}
+
+/* the games end */
+
+/* features */
+#features {
+  background-image: radial-gradient(
+      51.1% 80.48% at 30.85% 53.65%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 19.2%,
+      rgba(4, 5, 6, 0.520671) 47.48%,
+      #080a0b 99.74%
+    ),
+    url(/assets/features.jpg);
+}
+.content-page3 {
+  padding-top: 100px;
+  padding-bottom: 600px;
+}
+.bg-acc {
+  background: transparent !important;
+}
+/* features end */
+
+/* system requirement */
+#sys-req {
+  background-image: radial-gradient(
+      33.26% 45% at 64.32% 47.1%,
+      rgba(255, 255, 255, 0) 3.36%,
+      rgba(0, 0, 0, 0) 19.22%,
+      #080a0b 99.74%
+    ),
+    url(/assets/requirements.png);
+}
+.content-page4 {
+  padding: 200px 200px;
+  color: white;
+}
+.sysreq-title {
+  color: #ffb548;
+  font-weight: bold;
+}
+
+.table-sysreq {
+  margin: auto auto;
+}
+.sysreq-atas {
+  margin-top: auto auto;
+  font-size: 1.25rem;
+}
+
+/* system requirement end */
+
+/* top scores */
+#topscores {
+  background-image: radial-gradient(
+      70.52% 37.27% at 24.21% 47.47%,
+      rgba(35, 15, 15, 0) 0%,
+      rgba(0, 0, 0, 0) 51.1%,
+      #080a0b 99.74%
+    ),
+    url(/assets/top-score-bg.png);
+}
+.ts-m {
+  margin-left: 15rem;
+}
+.review-cards {
+  margin: 10rem auto;
+}
+.reviewer-card {
+  background-color: #423f3e;
+  border-radius: 10px;
+}
+.reviewer-image {
+  height: 63%;
+  width: 63%;
+  box-shadow: 5px 5px goldenrod;
+}
+.card-name {
+  color: #ffb548;
+}
+
+/* top scores end */
+
+/* subscribe end */
+#subscribe {
+  background: #080a0b;
+}
+.form-floating {
+  width: 25em;
+}
+.form-control {
+  color: #ffb548;
+}
+.white-bar {
+  padding: 1px 0 1px 0;
+}
+
+.content-page6 {
+  padding-top: 100px;
+}
+
+/* subscribe end */
+
+.footer {
+  margin-top: 10%;
+}
+.footer-button {
+  margin: 3%;
+}

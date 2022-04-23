@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style-game.css" />
+    <title>Challenge 4 - Hamzah Abalfatah Alfauzi</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- title bar -->
+      <section id="title">
+        <div class="container-fluid">
+          <div class="row title-bar">
+            <a class="col-lg-1 back-div align-self-center" href="/">
+              <img src="/assets/back.png" alt="Backdiv" />
+            </a>
+            <div class="col-lg-2 img-fluid logo align-self-center">
+              <img src="/assets/logo 3.png" alt="Logo" />
+            </div>
+            <div class="title col-lg-9">
+              <h1 class="text-warning title-game align-self-center">
+                ROCK PAPER SCISSORS
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- title bar end -->
+
+      <!-- player n computer end -->
+      <section id="gameCol">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="playerText text-center">PLAYER 1</div>
+              <div class="game-img-container batu-p">
+                <img
+                  class="img-fluid mx-auto game-img"
+                  src="/assets/batu 2.png"
+                  alt="Batu"
+                />
+              </div>
+              <div class="game-img-container kertas-p">
+                <img
+                  class="img-fluid mx-auto game-img"
+                  src="/assets/kertas 2.png"
+                  alt="Kertas"
+                />
+              </div>
+              <div class="game-img-container gunting-p">
+                <img
+                  class="img-fluid mx-auto game-img"
+                  src="/assets/gunting 2.png"
+                  alt="Gunting"
+                />
+              </div>
+            </div>
+            <div class="col-sm-4 align-self-center">
+              <h1 class="win-lose vs">VS</h1>
+            </div>
+            <div class="col-sm-4">
+              <div class="playerText text-center">COMPUTER</div>
+              <div class="game-img-container batu-c">
+                <img
+                  class="img-fluid mx-auto game-img"
+                  src="/assets/batu 2.png"
+                  alt="Batu"
+                />
+              </div>
+              <div class="game-img-container kertas-c">
+                <img
+                  class="img-fluid mx-auto game-img"
+                  src="/assets/kertas 2.png"
+                  alt="Kertas"
+                />
+              </div>
+              <div class="game-img-container gunting-c">
+                <img
+                  class="img-fluid mx-auto game-img"
+                  src="/assets/gunting 2.png"
+                  alt="Gunting"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- player n computer end -->
+
+      <!-- refresh -->
+      <section id="refresh-section">
+        <div class="container-fluid">
+          <div class="refresh-container">
+            <div class="refresh">
+              <img
+                class="img-fluid refresh-img"
+                src="/assets/refresh.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- refresh end -->
+    </div>
+
+    <!-- game script JS -->
+    <script src="script/game.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

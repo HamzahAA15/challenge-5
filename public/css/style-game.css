@@ -1,0 +1,86 @@
+body {
+  background-color: #9c835f;
+  height: 100%;
+}
+
+.container-fluid {
+  padding: 1% 7%;
+}
+
+/* title bar */
+.title-game {
+  font-weight: 700;
+}
+
+#main-title.container-fluid {
+  padding: 3% 3%;
+}
+
+.main-container {
+  height: auto;
+}
+
+/* player n computer */
+
+.game-img-container {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.game-img {
+  max-height: 15rem;
+  width: auto;
+}
+
+.playerText {
+  color: black;
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin-bottom: 10%;
+}
+
+.vs {
+  text-align: center;
+  color: #bd0000;
+  font-weight: 700;
+  font-size: 7rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.game-img-clicked {
+  background-color: #c4c4c4;
+  border-radius: 30px;
+}
+
+.draw {
+  background-color: #035b0c;
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  padding: 18% 0;
+  text-align: center;
+  transform: rotate(-28.87deg);
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.win-or-lose {
+  background-color: #4c9654;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: white;
+  padding: 10% 0;
+  text-align: center;
+  transform: rotate(-28.87deg);
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+/* refresh */
+.refresh {
+  text-align: center;
+}
+.refresh-img {
+  max-height: 5rem;
+}
